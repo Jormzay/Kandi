@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.26)  27 FEB 2015 01:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.26)  27 FEB 2015 13:47
 entering extended mode
 **main.tex
 (G:\GitRepos\Kandi\main.tex
@@ -568,36 +568,52 @@ Overfull \hbox (2.61234pt too wide) in paragraph at lines 24--30
 \tf@toc=\write3
  [3
 
-] (G:\GitRepos\Kandi\contents.tex
-LaTeX Font Info:    Try loading font information for OMS+aer on input line 31.
+] (G:\GitRepos\Kandi\contents.tex [1
+
+]
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 28.
 
 ("G:\Software\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
- [1
-
-] [2] [3] [4] [5]) [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+ [2] [3] [4] [5]) [6]
 (G:\GitRepos\Kandi\main.bbl (G:\GitRepos\Kandi\babelbst.tex
-(G:\GitRepos\Kandi\englbst.tex))) [7
+(G:\GitRepos\Kandi\englbst.tex))
+LaTeX Font Info:    Try loading font information for T1+aett on input line 14.
+ ("G:\Software\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+[]\T1/aer/m/n/12 Ian Os-band Enzo Bus-seti and Scott Wong.  Deep learn-ing for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+\T1/aer/m/n/12 time se-ries mod-el-ing.  URL $\T1/aett/m/n/12 http : / / cs229 
+. stanford . edu / proj2012 /$
+ []
+
+) [7
 
 ] (G:\GitRepos\Kandi\main.aux) ) 
 Here is how much of TeX's memory you used:
- 5353 strings out of 493921
- 66578 string characters out of 3149290
- 129226 words of memory out of 3000000
- 8499 multiletter control sequences out of 15000+200000
- 29997 words of font info for 65 fonts, out of 3000000 for 9000
+ 5386 strings out of 493921
+ 67152 string characters out of 3149290
+ 131327 words of memory out of 3000000
+ 8527 multiletter control sequences out of 15000+200000
+ 30487 words of font info for 67 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,10n,32p,780b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,32p,780b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
 <G:/Software/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb><G:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
 .pfb><G:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><G:/Soft
-ware/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (10 pages, 69768 bytes).
+ware/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><G:/Software/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (10 pages, 86481 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
