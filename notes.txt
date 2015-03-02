@@ -1,0 +1,12 @@
+
+
+2nd chapter, rename, restructure
+
+Compare within deep learning, or compare deep learning to conventional methods.
+
+Reform introduction (?)
+
+read:
+http://arxiv.org/pdf/1404.7828.pdf
+
+
