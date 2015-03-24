@@ -13,3 +13,4 @@
 \contentsline {subsection}{\numberline {2.2}Restricted Boltzmann machines in time series forecasting}{4}
 \contentsline {section}{\numberline {3}A Curiosity or An Opportunity?}{5}
 \contentsline {section}{\numberline {4}Conclusion}{6}
+\contentsline {section}{Sources}{7}

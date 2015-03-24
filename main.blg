@@ -1,8 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
-I couldn't open style file aaltosci_t.bst
----line 35 of file main.aux
- : \bibstyle{aaltosci_t
- :                     }
-I'm skipping whatever remains of this command
-I found no style file---while reading file main.aux
-(There were 2 error messages)
+The style file: aaltosci_t.bst
+Database file #1: lahteet.bib
+Warning--entry type for "StanfordNNReport" isn't style-file defined
+--line 13 of file lahteet.bib
+Warning--empty year in StanfordNNReport
+(There were 2 warnings)
