@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  20 MAR 2015 14:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  24 MAR 2015 15:06
 entering extended mode
 **main.tex
 (C:\Users\Jonathan\Documents\GitHub\Kandi\main.tex
@@ -569,6 +569,9 @@ Overfull \hbox (2.61234pt too wide) in paragraph at lines 24--30
  [3
 
 ]
+(C:\Users\Jonathan\Documents\GitHub\Kandi\luku_lyhenteet.tex) [4
+
+]
 (C:\Users\Jonathan\Documents\GitHub\Kandi\contents.tex
 LaTeX Font Info:    Try loading font information for OMS+aer on input line 27.
 
@@ -577,10 +580,8 @@ File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
- [1
-
-] [2] [3] [4] [5])
-[6] (C:\Users\Jonathan\Documents\GitHub\Kandi\main.bbl
+ [1] [2] [3] [4] [5]
+[6]) [7] (C:\Users\Jonathan\Documents\GitHub\Kandi\main.bbl
 (C:\Users\Jonathan\Documents\GitHub\Kandi\babelbst.tex
 (C:\Users\Jonathan\Documents\GitHub\Kandi\englbst.tex))
 LaTeX Font Info:    Try loading font information for T1+aett on input line 15.
@@ -598,14 +599,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--16
 . stanford . edu / proj2012 /$
  []
 
-) [7
+) [8
 
 ] (C:\Users\Jonathan\Documents\GitHub\Kandi\main.aux) ) 
 Here is how much of TeX's memory you used:
- 5383 strings out of 493921
- 68237 string characters out of 3147273
- 130309 words of memory out of 3000000
- 8524 multiletter control sequences out of 15000+200000
+ 5389 strings out of 493921
+ 68444 string characters out of 3147273
+ 130337 words of memory out of 3000000
+ 8527 multiletter control sequences out of 15000+200000
  30487 words of font info for 67 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,10n,32p,780b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -615,9 +616,9 @@ ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmtt12.pfb>
-Output written on main.pdf (10 pages, 84130 bytes).
+Output written on main.pdf (12 pages, 86864 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,18 +3,23 @@
 \subsection{Background}
 
 %TODO: Theoretical background, build case for the thesis based on earlier research and facts.
-Financial prediction and forecasting has always been at the core of the free market model. Traditionally, prediction and pattern recognition in this area have been made manually by humans. New methods for gaining an edge over competitors are always being developed, and all this development nowadays take place in the realm of computer science.
 
-Software that utilizes sophisticated algorithms, and even basic machine learning, are being used worldwide in all kinds of markets, and these methods are constantly evolving[\citenum{AlgoritmicTradeReview}]. But there has not yet been any larger adaptation of deep machine learning by any major financial players. These deep neural networks are not widely used at all in time series prediction, in general. Financial data being a textbook example of a time series.
+
+Financial forecasting is a corned stone of the modern free market model. Software that utilizes sophisticated algorithms, and even basic machine learning, are being used worldwide in all kinds of markets, and these methods are continuously being perfected and developed. [\citenum{AlgoritmicTradeReview}]. But there has not yet been any larger adaptation of deep machine learning in financial forecasting. These deep neural networks are in fact not widely used at all in time series prediction in general.
+
+A deep neural network is different from an ordinary 
+
+This is not to necessarily say that these deep NN methods are, by their very nature, inferior. But only that they are newer, and perhaps still need to find their niche.
+What this thesis is aiming for, is to assess whether deep NN methods can compete with other contemporary techniques of financial forecasting.
 
 
 \subsection{Problem description}
 
 %TODO: Describe and explain the research angle (problem) carefully
 
-The different possible uses for deep learning in analysing and predicting financial time series have not been as well documented as other methods. As a result of this, no apparent consensus can be found to indicate one way or the other, even though individual articles and papers might point in one direction.
+The different possible uses for deep learning in analysing and predicting financial time series have not been as well documented as other methods. As a result of this, no apparent consensus can be found to indicate one way or the other.
 
-This thesis is looking at the results of studies done regarding the usage and performance of a specific deep learning method applied in financial data series. The goal is to be able to draw some overreaching conclusions as to the possibilities and efficiency of these deep learning methods compared to other contemporary and more broadly used ones. Results are approached mainly from a business perspective, meaning that the competitive power and monetary value creation potential of a prediction method is valued more than the research and scientific value of it.
+This thesis is looking at the results of studies done regarding the usage and performance of deep learning methods applied in financial data series. The goal is to be able to draw some overreaching conclusions as to the possibilities and efficiency of these deep learning methods compared to other contemporary and more broadly used ones. Results are approached mainly from a business perspective, meaning that the competitive power and monetary value creation potential of a prediction method is valued more than the research and scientific value of it.
 
 
 \subsection{Problem definition and purpose}
@@ -28,16 +33,13 @@ The purpose, as briefly stated in the previous sub-chapter, is to assess the bus
 
 \item What finance markets, if any, are more suitable than others for prediction by deep learning methods?
 
-\item What kind of developments is realistically to be expected within the field in the near future, and how can this be accounted for in the interpretation of results.
+\item What kind of developments is realistically to be expected within the field in the near future, and should this be accounted for in the interpretation of results.
 
 \end{itemize}
 
 On top of this, some back of the envelope calculations are presented regarding the actual costs of designing, setting up and running a financial operation based upon the methods discussed in this thesis. This will amount to a very rudimentary business case for a hypothetical entrepreneur.
 
 
-%Viability in business?
-
-%Curiosity or opportunity?
 
 \subsection{Subject Restrictions}
 %TODO: Restrict the field of research, and motivate the restrictions.
@@ -55,7 +57,7 @@ The sources for the financial data itself will not be discussed more than to to 
 
 A challenge, compared to other fields, when searching for information is undoubtedly that this particular subject does not yet boast a large body of research. Relevant articles and scientific papers are scarce, and often generalized in such ways that they seldom contribute to the purpose of this thesis. In order to get enough reliable data to speculate and draw conclusions on, some modest cross-field extrapolations have been made. This is to say, that wherever deep neural networks have been applied to datasets resembling that of financial sets, the results have been used to argue the some conclusion for the equivalent finance data sets. This is not used as standalone evidence, but rather together with other research to form the general idea.
 
-The type of material used is ranging from published papers and studies to university student reports. The modest amount of research has not left any room for selective choosing of sources.
+The type of material used is ranging from published papers and studies to university student reports.
 
 
 
@@ -65,22 +67,25 @@ The type of material used is ranging from published papers and studies to univer
 %TODO: Contents of Results chapter
 \subsection{Deep NN in equivalent datasets}
 %Scarcity of information --> extrapolate results from similar datasets
-Here we will begin with looking at how deep neural networks have been used, and with what rate of success, in other fields.
 
-In a project report done at Stanford university in 2012[\citenum{StanfordNNReport}], a deep NN method was employed to forecast energy demand in the US. This kind of data, of which there are huge sets free to use, is great for Machine learning. Energy load data exhibit deep non-linear patterns, much like financial data does. The results they obtained were indeed impressive.
+Here the basic characteristics of financial and other time series forecasting in general will be discussed.
+The strength in deep machine learning is the ability to identify and account for fundamental non linear patterns in large data sets.
 
-With a Deep Recurrent NN, they obtained as high correlation rates as 99.6\%. In comparison, top industrial forecasters advertise mean percentage errors of between 0.84\% and 1.56\%. This puts the Deep NN on par with the conventional methods of the private sector.
+Financial data sets are inherently noisy, because they can not contain the full spectrum of data needed to make an 100\% accurate prediction. The missing data, such as market rumours and complex political and social factors are considered 'noise', because they can't be modelled. Furthermore, the data is considered dynamic, and even chaotic, in the sense that the distribution of a financial series changes over time, rendering assumptions based on old sets irrelevant. \citenum{FForecastingIntro}
 
-The Deep recurrent NN responsible for the results, outperformed the other methods (ie. Deep Feedforward NN) in the study by a wide margin. The authors point out that the other methods fail to incorporate some of the temporal structures found in time series data. These are data structures related to time intervals and points, essential to forecasting time series. This would indeed be relevant for other time series as well, such as financial market data.
+These are all characteristics that a deep neural network will need to cope with, in order to compete with other models. So when analysing model performance, the type of data set is irrelevant, as long as matches these criteria. This is especially useful in this case, when relevant studies and papers are scarce.
 
-In their conclusion, the authors contribute parts of their results to the nature of the data used, and the availability of it. Furthermore they state that refining of their methods, and more specifically, if they used more advanced techniques the results could still improve, at least efficiency-wise. They name the restricted Boltzmann machines as a method they would see give rise to more efficient and complex models.
+In the next section we will extrapolate the results from using deep NN to predict energy demand, to draw conclusion that are valid in financial forecasting as well.
 
-\subsection{Restricted Boltzmann machines in time series forecasting}
+\subsection{Deep NN in times series forecasting}
 
-In this sub-chapter the use of a modern technique, based restricted Boltzmann machines (RBMs), will be examined, and its efficiency assessed.
+In a project report done at Stanford university in 2012[\citenum{StanfordNNReport}], a deep NN method was employed to forecast energy demand in the US. This kind of data, of which there are huge easily accesible data sets, is particularly well suited for machine learning purposes. Furthermore, energy load data exhibit deep non-linear patterns, much like financial data does, and it is considered possible to draw on the conclusions reached in this paper in assessing deep NN in the case of financial data.
 
-RBMs are in and of themselves not Deep learning techniques, but they can be combined to form Deep Boltzmann machines (DBMs)[\citenum{BoltzmannBasics}].
+The study itself concluded in favour of deep learning techniques. With a Deep Recurrent NN, they obtained as high correlation rates as 99.6\%. In comparison, top industrial forecasters advertise mean percentage errors of between 0.84\% and 1.56\%. This puts the Deep NN on par with the conventional methods of the private sector.
 
+The Deep recurrent NN responsible for the results, outperformed the other deep NN methods (ie. Deep Feedforward NN) used in the study by a wide margin. The authors point out that the other methods fail to incorporate some of the temporal structures found in time series data. These are data structures related to time intervals and points, essential to forecasting time series. This is of course relevant for other time series as well, such as financial market data.
+
+In their conclusion, the authors contribute parts of their results to the nature of the data used, and the availability of it. Furthermore they state that by refining of their methods, and more specifically, by incorporating more advanced techniques in the process, the results could still improve. They specifically name the restricted Boltzmann machines as a more modern method they believe could out-perform their own top contender, a deep recurrent NN.
 
 
 %Research Restricted Boltzmann machines
@@ -89,7 +94,7 @@ RBMs are in and of themselves not Deep learning techniques, but they can be comb
 
 \newpage
 
-\section{A Curiosity or An Opportunity?}
+\section{Analysis}
 TODO: Analysis and Interpretation
 
 \newpage

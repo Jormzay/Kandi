@@ -2,6 +2,7 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
+\contentsline {section}{K\IeC {\"a}ytetyt symbolit ja lyhenteet}{iv}
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {subsection}{\numberline {1.1}Background}{1}
 \contentsline {subsection}{\numberline {1.2}Problem description}{1}
@@ -10,7 +11,7 @@
 \contentsline {subsection}{\numberline {1.5}Material and methods}{2}
 \contentsline {section}{\numberline {2}Results}{4}
 \contentsline {subsection}{\numberline {2.1}Deep NN in equivalent datasets}{4}
-\contentsline {subsection}{\numberline {2.2}Restricted Boltzmann machines in time series forecasting}{4}
-\contentsline {section}{\numberline {3}A Curiosity or An Opportunity?}{5}
-\contentsline {section}{\numberline {4}Conclusion}{6}
-\contentsline {section}{Sources}{7}
+\contentsline {subsection}{\numberline {2.2}Deep NN in times series forecasting}{4}
+\contentsline {section}{\numberline {3}Analysis}{6}
+\contentsline {section}{\numberline {4}Conclusion}{7}
+\contentsline {section}{Sources}{8}

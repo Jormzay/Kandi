@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -24,5 +24,10 @@ Michael~Galas Philip~Treleaven \bbland{} Vidhi Lalchand.
 \newblock Algorithmic trade review.
 \newblock \emph{Communications of the ACM}, 56\penalty0 (11):\penalty0 76 --
   85, November 2013.
+
+\bibitem[Yaser~SAM(1996)]{FForecastingIntro}
+Atiya~AF Yaser~SAM.
+\newblock Introduction to financial forecasting.
+\newblock \emph{Applied Intelligence}, 4, 1996.
 
 \end{thebibliography}
