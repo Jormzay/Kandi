@@ -2,7 +2,7 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-\contentsline {section}{K\IeC {\"a}ytetyt symbolit ja lyhenteet}{iv}
+\contentsline {section}{Symbols and abbreviations}{iv}
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {subsection}{\numberline {1.1}Background}{1}
 \contentsline {subsection}{\numberline {1.2}Problem description}{1}
@@ -13,5 +13,9 @@
 \contentsline {subsection}{\numberline {2.1}Deep NN in equivalent datasets}{3}
 \contentsline {subsection}{\numberline {2.2}Deep NN in times series forecasting}{3}
 \contentsline {section}{\numberline {3}Analysis}{5}
+\contentsline {subsection}{\numberline {3.1}Comparing different Deep NNs}{5}
+\contentsline {subsection}{\numberline {3.2}Deep NNs with contemporary linear methods}{5}
 \contentsline {section}{\numberline {4}Conclusion}{6}
+\contentsline {subsection}{\numberline {4.1}Curiosity or Opportunity?}{6}
+\contentsline {subsection}{\numberline {4.2}Future development and possible outlooks}{6}
 \contentsline {section}{Sources}{7}
