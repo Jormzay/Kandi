@@ -1,50 +1,41 @@
 \section{Introduction}
 
-\subsection{Background}
+\subsection{Background and problem description}
 
-%TODO: Theoretical background, build case for the thesis based on earlier research and facts.
+%TODO: Theoretical background, build case for the thesis based on earlier research and facts. Describe and explain the problem.
 
+Analysis of financial data is a broad subject and very fundamental in the field of economics. Contemporary types and methods for such analysis are numerous, but a large subcategory is focused the detection of trends in financial time series, formerly known as financial forecasting.
 
-Financial forecasting is a corned stone of the modern free market model. Software that utilizes sophisticated algorithms, and even basic machine learning, are being used worldwide in all kinds of markets, and these methods are continuously being perfected and developed. [\citenum{AlgoritmicTradeReview}]. But there has not yet been any larger adaptation of deep machine learning in financial forecasting. These deep neural networks are in fact not widely used at all in time series prediction in general.
+Financial forecasting is a major part of the modern free market model. Software that utilizes sophisticated algorithms, and even basic machine learning, are being used worldwide in all kinds of markets, and these methods are continuously being perfected and developed. [\citenum{AlgoritmicTradeReview}]. Most of these algorithms and computer methods deal with short term trends and take advantage of a computers' fast reaction time compared to that of human beings. Having a computer make predictions in the short term, however, is very different than in the long term, as macroeconomic, political and environmental factors don't generally have to be taken into account. These are factors that have a significant impact in the long term, require human interpretation, and further obscure any underlying trends that an automated computer model might pick up.
 
-A deep neural network is a method for machine learning, that in short is a neural network with several layers that define different levels of abstraction. The output of a neural network is used directly as input in the next network, marking two different abstract levels. A deep NN is generally better at recognising more complex and deep pattern, at the cost of efficiency and computing power.
+The question is then, are there viable options for automated long term financial forecasting, and are they at all comparable in terms of efficiency and success to contemporary forecasting, automated or not.
 
-What this thesis is aiming for, is to assess whether deep NN methods can compete with other contemporary techniques of financial forecasting.
+Forecasting of larger datasets, especially time series, is often accomplished using machine learning and, more specifically, so called artificial neural networks. A subcategory of machine learning is the field of deep learning and deep neural networks, which is for more complex pattern recognition.
 
-
-\subsection{Problem description}
-
-%TODO: Describe and explain the research angle (problem) carefully
-
-The different possible uses for deep learning in analysing and predicting financial time series have not been as well documented as other methods. As a result of this, no apparent consensus can be found to indicate one way or the other.
-
-This thesis is looking at the results of studies done regarding the usage and performance of deep learning methods applied in financial data series. The goal is to be able to draw some overreaching conclusions as to the possibilities and efficiency of these deep learning methods compared to other contemporary and more broadly used ones. Results are analysed such that the current, somewhat early state of deep NNs is taken into account.
+This begs the question, could a deep neural network discover subtle long term trends in a financial data time series, buried in the noise of the global economy, that general neural networks would not be able to detect?
 
 
-\subsection{Problem definition and purpose}
+\subsection{Definitions and purpose of thesis}
 %TODO: Formulate the problem further and define the purpose of the thesis. Present research questions.
 
-The purpose, as briefly stated in the previous sub-chapter, is to assess the business potential and competitiveness of using deep neural networks (NN) when used for forecasting in a financial market. There are a number of questions very central to this purpose, that are reiterated in one form or another troughout this thesis.
 
-\begin{itemize}
+A deep neural network is a method for machine learning, that in short is a neural network with several layers that define different levels of abstraction. The output of a neural network is used directly as input in the next network, marking two different abstract levels. A deep NN is generally better at recognising more complex and deep patterns, at the cost of efficiency and computing power.
 
-\item Is any particular deep learning method comparable to other contemporary methods?
+Financial data in this context means any temporal data of sufficient quantity related to economics. An example would be a stock market index over time, or any market index in general. Furthermore, as financial data consist mainly of time series, any temporal data set with similar features could be used for testing a forecasting method. More on that in the Material and methods chapter.
 
-\item What aspect of finance forecasting is most suited for deep NNs?
+The purpose, as hinted at in the previous sub-chapter, is to assess the viability of using deep neural networks when used for forecasting in a financial data set. The goal is to be able to draw some overreaching conclusions as to the possibilities and efficiency of these deep learning methods, and see which method in particular is well suited for this data.
 
-\item What kind of developments is realistically to be expected within the field in the near future, and how should it be taken into account when formulating conclusions.
-
-\end{itemize}
-
-
-
-
-\subsection{Subject Restrictions}
+\subsection{Focus and subject restrictions}
 %TODO: Restrict the field of research, and motivate the restrictions.
 
-The subject of this is thesis is restricted to a literature study regarding the viability of financial forecasting using neural networks. No knowledge of either machine learning nor finance is supposed of the reader, so the technical details are kept to a minimum.
-The different types of NNs and deep NNs will not be discussed any more than is contextually necessary.
-Analysis of results gathered is focused on the end-result, and not for example on the efficiency or energy consumption of methods and techniques.
+The subject of this is thesis is restricted to a literature study regarding the viability of financial forecasting using deep neural network methods. Technical intricacies and specifications of deep neural networks and deep learning in general are kept to a minimum, and the different methods covered are only analysed in the context of financial data.
+
+The conclusions are be conveyed in a summarized manner, with the goal of conveying a cohesive statement instead of numerous small points. This will further restrict the depth the analysis.
+
+
+No knowledge of either machine learning nor finance is supposed of the reader.
+
+
 
 
 
@@ -53,7 +44,7 @@ Analysis of results gathered is focused on the end-result, and not for example o
 
 %TODO: Describe the research in sufficient detail so that reproduction and/or falsification is possible by third party. Discuss the main sources and elevate characteristics such as problems, shortcomings and usefulness.
 
-A challenge, compared to other fields, when searching for information is undoubtedly that this particular subject does not yet boast a large body of research. Relevant articles and scientific papers are scarce, and often generalized in such ways that they seldom contribute to the specific purpose of this thesis. In order to get enough reliable data to speculate and draw conclusions on, some modest cross-field extrapolations are made.
+A challenge with the field of deep learning, compared to other fields, when searching for information is undoubtedly that this particular subject does not yet boast a large body of research. Relevant articles and scientific papers are scarce, and often generalized in such ways that they seldom contribute to the specific purpose of this thesis. In order to get enough reliable data to speculate and draw conclusions on, some modest cross-field extrapolations are made.
 
 The type of material used is ranging from published papers and studies to university student reports.
 
@@ -61,7 +52,7 @@ The type of material used is ranging from published papers and studies to univer
 
 \newpage
 
-\section{Results}
+\section{Existing research and results}
 %TODO: Contents of Results chapter
 \subsection{Deep NN in equivalent datasets}
 %Scarcity of information --> extrapolate results from similar datasets
@@ -91,6 +82,8 @@ In their conclusion, the authors contribute parts of their results to the nature
 
 
 \newpage
+
+%List different Deep NN methdods and compare
 
 \section{Analysis}
 
