@@ -6,7 +6,7 @@
 
 Analysis of financial data is a broad subject and very fundamental in the field of economics. Contemporary types and methods for such analysis are numerous, but a large subcategory is focused the detection of trends in financial time series, formerly known as financial forecasting.
 
-Financial forecasting is a major part of the modern free market model. Software that utilizes sophisticated algorithms, and even basic machine learning, are being used worldwide in all kinds of markets, and these methods are continuously being perfected and developed. [\citenum{AlgoritmicTradeReview}]. Most of these algorithms and computer methods deal with short term trends and take advantage of a computers' fast reaction time compared to that of human beings. Having a computer make predictions in the short term, however, is very different than in the long term, as macroeconomic, political and environmental factors don't generally have to be taken into account. These are factors that have a significant impact in the long term, require human interpretation, and further obscure any underlying trends that an automated computer model might pick up.
+Financial forecasting is a major part of the modern free market model. Software that utilizes sophisticated algorithms, and even basic machine learning, are being used worldwide in all kinds of markets, and these methods are continuously being perfected and developed. [\citenum{AlgoritmicTradeReview}]. Most of these algorithms and computer methods deal with short term trends and take advantage of a computers' fast reaction time compared to that of human beings. Having a computer make predictions in the short term, however, is very different than in the long term, as macroeconomic, political and environmental factors don't generally have to be taken into account. These are factors that have a significant impact in the long term, require human interpretation, and further obscure any underlying trends that an automated computer model might pick up.\citenum{FForecastingIntro}
 
 The question is then, are there viable options for automated long term financial forecasting, and are they at all comparable in terms of efficiency and success to contemporary forecasting, automated or not.
 
@@ -28,23 +28,20 @@ The purpose, as hinted at in the previous sub-chapter, is to assess the viabilit
 \subsection{Focus and subject restrictions}
 %TODO: Restrict the field of research, and motivate the restrictions.
 
-The subject of this is thesis is restricted to a literature study regarding the viability of financial forecasting using deep neural network methods. Technical intricacies and specifications of deep neural networks and deep learning in general are kept to a minimum, and the different methods covered are only analysed in the context of financial data.
+The subject of this is thesis is restricted to an overview of the viability of financial forecasting using deep neural network methods. Technical intricacies and specifications of deep neural networks and deep learning in general are kept to a minimum, and the different methods covered are only analysed in the context of financial data.
 
-The conclusions are be conveyed in a summarized manner, with the goal of conveying a cohesive statement instead of numerous small points. This will further restrict the depth the analysis.
-
+The conclusions are conveyed a summarized manner, with the goal of giving a cohesive statement instead of numerous small points. This will further restrict the depth the analysis.
 
 No knowledge of either machine learning nor finance is supposed of the reader.
 
 
 
 
-
-
-\subsection{Material and methods}
+\subsection{Research material and methods}
 
 %TODO: Describe the research in sufficient detail so that reproduction and/or falsification is possible by third party. Discuss the main sources and elevate characteristics such as problems, shortcomings and usefulness.
 
-A challenge with the field of deep learning, compared to other fields, when searching for information is undoubtedly that this particular subject does not yet boast a large body of research. Relevant articles and scientific papers are scarce, and often generalized in such ways that they seldom contribute to the specific purpose of this thesis. In order to get enough reliable data to speculate and draw conclusions on, some modest cross-field extrapolations are made.
+This thesis is mainly a materials study, with analysis and conclusions deducted from existing work.
 
 The type of material used is ranging from published papers and studies to university student reports.
 
@@ -53,22 +50,33 @@ The type of material used is ranging from published papers and studies to univer
 \newpage
 
 \section{Existing research and results}
-%TODO: Contents of Results chapter
-\subsection{Deep NN in equivalent datasets}
-%Scarcity of information --> extrapolate results from similar datasets
 
-Here the basic characteristics of financial and other time series forecasting in general will be discussed.
+
+\subsection{Current state of research}
+
+Here, first the characteristics of financial and other time series forecasting will be discussed, and secondly relevant papers and research material will be presented.
+
+A challenge with the field of deep learning, compared to other fields, when searching for information is undoubtedly that this particular subject does not yet boast a large body of research. Relevant articles and scientific papers are scarce, and often generalized in such ways that they rarely contribute to the specific purpose of this thesis. 
+
+As a result of this, the papers discussed are chosen simply on the one merit that they have at something to bring to the discussion, however lacking they otherwise may be.
+
+Furthermore, since finding papers related to exactly financial data and deep neural networks is difficult, some extrapolation can be made from similar fields with similar data structures.
+
+
+\subsection{Characteristics of deep neural networks}
+
 The strength in deep machine learning is the ability to identify and account for fundamental non linear patterns in large data sets.
 
-Financial data sets are inherently noisy, because they can not contain the full spectrum of data needed to make an 100\% accurate prediction. The missing data, such as market rumours and complex political and social factors are considered 'noise', because they can't be modelled. Furthermore, the data is considered dynamic, and even chaotic, in the sense that the distribution of a financial series changes over time, rendering assumptions based on old sets irrelevant. \citenum{FForecastingIntro}
+Financial data sets are inherently noisy, because they can not contain the full spectrum of data needed to make an 100\% accurate prediction. The missing data, such as market rumours and complex political and social factors are considered 'noise', because they can't be modelled. Furthermore, the data is considered dynamic, and even chaotic, in the sense that the distribution of a financial series changes over time, rendering assumptions based on old sets irrelevant. [\citenum{FForecastingIntro}]
 
-These are all characteristics that a deep neural network will need to cope with, in order to compete with other models. So when analysing model performance, the  specific type of data is not really relevant, as long as it matches these criteria. This is especially useful when relevant studies and papers are scarce, such as this case.
+These are all characteristics that a deep neural network will need to cope with, in order to compete with other models. So when analysing model performance, the  specific type of data is not really relevant, as long as it matches these criteria.
 
-In the next section we will extrapolate the results from using deep NN to predict energy demand, which is a typical time series.
+\subsection{Deep neural networks forecast in electricity demand}
 
-\subsection{Deep NN in times series forecasting}
+%More on the study, who, what, where etc.
+%Some formulas or Graphs perhaps? More technical details, but not too much!
 
-In a project report done at Stanford university in 2012[\citenum{StanfordNNReport}], a deep NN method was employed to forecast energy demand in the US. This kind of data, of which there are huge easily accesible data sets, is particularly well suited for machine learning purposes. Furthermore, energy load data exhibit deep non-linear patterns, much like financial data does, and it is considered possible to draw on the conclusions reached in this paper in assessing deep NN in the case of financial data.
+In a project report done at Stanford university in 2012[\citenum{StanfordNNReport}], a deep NN method was employed to forecast energy demand in the US. This kind of data, of which there are huge, easily accessible data sets, is particularly well suited for machine learning purposes. Furthermore, energy load data exhibit deep non-linear patterns, much like financial data does.
 
 The study itself concluded in favour of deep learning techniques. With a Deep Recurrent NN, they obtained as high correlation rates as 99.6\%. In comparison, top industrial forecasters advertise mean percentage errors of between 0.84\% and 1.56\%. This puts the Deep NN on par with the conventional methods of the private sector.
 
@@ -83,9 +91,14 @@ In their conclusion, the authors contribute parts of their results to the nature
 
 \newpage
 
-%List different Deep NN methdods and compare
-
 \section{Analysis}
+
+\subsection{Analytical approach}
+
+In this section the papers previously presented are dissected and their potentially relevant parts pointed out.
+Each piece of research is analysed on its own, and the main points not put together until the conclusion section of the thesis.
+ 
+
 
 \subsection{Comparing different Deep NNs}
 
@@ -96,7 +109,7 @@ In their conclusion, the authors contribute parts of their results to the nature
 
 \section{Conclusion}
 
-\subsection{Curiosity or Opportunity?}
+\subsection{Summary of analysis}
 
 \subsection{Future development and possible outlooks}
 
